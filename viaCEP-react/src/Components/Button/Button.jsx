@@ -1,8 +1,12 @@
 import React from 'react'
 
 const Button = ({texto}) => {
+  function handleClick(e){
+    e.preventDefault()
+    console.log('btn funciona')
+  }
   return (
-    <button>{texto}</button>
+    <button onClick={handleClick}>{texto}</button>
   )
 }
 
