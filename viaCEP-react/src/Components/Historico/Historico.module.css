@@ -1,0 +1,15 @@
+.historico{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    min-height: 200px;
+    text-align:left;
+    background-color: #0101017a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.historico p {
+    line-height: normal;
+    margin: 0;
+}
